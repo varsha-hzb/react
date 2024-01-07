@@ -1,0 +1,65 @@
+body {
+  display: grid;
+  justify-content: center;
+}
+
+form {
+  display: grid;
+  justify-content: center;
+}
+
+label {
+  text-align: start;
+  margin-top: 2vw;
+}
+
+p {
+  text-align: start;
+  margin-top: 0vw;
+  margin-bottom: 0vw;
+}
+
+input {
+  width: 40vw;
+  height: 4vw;
+  border-radius: 8px;
+  border-color: beige;
+}
+ input.input-error,
+ select.input-error{
+  border-color: #fc8181;
+ }
+
+ button:disabled {
+  opacity: 0.35;
+ }
+
+div {
+ display: grid;
+ justify-content: center;
+}
+
+label {
+  text-align: start;
+}
+p {
+  text-align: start;
+  margin-top: 0vw;
+  margin-bottom: 0vw;
+}
+
+
+select {
+  width: 40vw;
+  height: 4vw;
+  border-radius: 8px;
+  border-color: beige;
+}
+
+.checkbox {
+  display: flex;
+}
+.input-error{
+  width: 2vw;
+  height: 2vw;
+}
